@@ -28,13 +28,13 @@ Class hierarchies in computational complexity and logic theory are frameworks fo
 
 The **Polynomial Hierarchy** is a hierarchy of complexity classes that generalizes **P** (problems solvable in polynomial time) and **NP** (nondeterministic polynomial time) by introducing alternating quantifiers.
 
-- **Levels of the Polynomial Hierarchy**: The polynomial hierarchy is structured in levels (often denoted by \(\Sigma_k^P\) and \(\Pi_k^P\)), where each level represents a class of problems that can be solved by alternating sequences of **existential** and **universal quantifiers** over polynomial-time computations.
-    - **\(\Sigma_1^P\) = NP**: Problems that can be solved in nondeterministic polynomial time.
-    - **\(\Pi_1^P\) = co-NP**: Problems whose complements are in NP.
-    - **\(\Sigma_2^P\)**: Exists-Forall problems, solvable by a nondeterministic polynomial algorithm with an existential quantifier followed by a universal quantifier.
-    - Higher levels (\(\Sigma_k^P\) and \(\Pi_k^P\)) continue by alternating quantifiers.
+- **Levels of the Polynomial Hierarchy**: The polynomial hierarchy is structured in levels (often denoted by \$\Sigma_k^P\$ and \$\Pi_k^P\$), where each level represents a class of problems that can be solved by alternating sequences of **existential** and **universal quantifiers** over polynomial-time computations.
+    - **\$\Sigma_1^P\$ = NP**: Problems that can be solved in nondeterministic polynomial time.
+    - **\$\Pi_1^P\$ = co-NP**: Problems whose complements are in NP.
+    - **\$\Sigma_2^P\$**: Exists-Forall problems, solvable by a nondeterministic polynomial algorithm with an existential quantifier followed by a universal quantifier.
+    - Higher levels (\$\Sigma_k^P\$ and \$\Pi_k^P\$) continue by alternating quantifiers.
 
-- **Relationship with Complexity Classes**: If the Polynomial Hierarchy collapses to some level \(k\), it means that all levels above \(k\) are equivalent, which would imply significant simplifications in complexity theory.
+- **Relationship with Complexity Classes**: If the Polynomial Hierarchy collapses to some level \$k\$, it means that all levels above \$k\$ are equivalent, which would imply significant simplifications in complexity theory.
 
 - **Importance**: The Polynomial Hierarchy captures a wide range of natural computational problems and is essential in understanding the structure of NP and co-NP and the implications for related classes.
 
@@ -44,10 +44,10 @@ The **Polynomial Hierarchy** is a hierarchy of complexity classes that generaliz
 
 The **Exponential Hierarchy** is a hierarchy of complexity classes similar to the Polynomial Hierarchy but based on **exponential time bounds**.
 
-- **Definition**: Each level in the Exponential Hierarchy corresponds to the classes \(\Sigma_k^{\text{EXP}}\) and \(\Pi_k^{\text{EXP}}\), where:
-    - \(\Sigma_1^{\text{EXP}} = \text{NEXP}\): Nondeterministic exponential time.
-    - \(\Pi_1^{\text{EXP}} = \text{co-NEXP}\): Complement of NEXP problems.
-    - \(\Sigma_2^{\text{EXP}}\): Exists-Forall problems solvable in exponential time.
+- **Definition**: Each level in the Exponential Hierarchy corresponds to the classes \$\Sigma_k^{\text{EXP}}\$ and \$\Pi_k^{\text{EXP}}\$, where:
+    - \$\Sigma_1^{\text{EXP}} = \text{NEXP}\$: Nondeterministic exponential time.
+    - \$\Pi_1^{\text{EXP}} = \text{co-NEXP}\$: Complement of NEXP problems.
+    - \$\Sigma_2^{\text{EXP}}\$: Exists-Forall problems solvable in exponential time.
   
 - **Hierarchy Structure**: The hierarchy allows alternating quantifiers, with each level increasing the bounds of computation resources exponentially rather than polynomially.
 
@@ -59,13 +59,13 @@ The **Exponential Hierarchy** is a hierarchy of complexity classes similar to th
 
 The **Grzegorczyk Hierarchy** is a classification of functions based on **computational complexity** with respect to **primitive recursion** and **growth rate**.
 
-- **Levels of the Grzegorczyk Hierarchy**: The hierarchy has levels \(E_n\), where:
-    - \(E_0\) is the class of **constant functions**.
-    - \(E_1\) contains **addition** functions.
-    - \(E_2\) includes **multiplication** and functions with polynomial growth.
-    - Higher levels \(E_n\) contain functions that grow at increasingly faster rates.
+- **Levels of the Grzegorczyk Hierarchy**: The hierarchy has levels \$E_n\$, where:
+    - \$E_0\$ is the class of **constant functions**.
+    - \$E_1\$ contains **addition** functions.
+    - \$E_2\$ includes **multiplication** and functions with polynomial growth.
+    - Higher levels \$E_n\$ contain functions that grow at increasingly faster rates.
   
-- **Relation to Computability**: Each level of the Grzegorczyk Hierarchy corresponds to a class of computable functions with restricted growth rates, and \(E_3\) includes all **primitive recursive functions**. Beyond a certain level, the hierarchy includes functions that are not primitive recursive but still computable.
+- **Relation to Computability**: Each level of the Grzegorczyk Hierarchy corresponds to a class of computable functions with restricted growth rates, and \$E_3\$ includes all **primitive recursive functions**. Beyond a certain level, the hierarchy includes functions that are not primitive recursive but still computable.
 
 - **Importance**: This hierarchy is fundamental in **computability theory** and **recursion theory**. It provides insights into the growth rates of functions that are still computable and highlights the boundaries between primitive recursive functions and more complex forms of computation.
 
@@ -75,13 +75,13 @@ The **Grzegorczyk Hierarchy** is a classification of functions based on **comput
 
 The **Arithmetical Hierarchy** is used in **mathematical logic** and **recursion theory** to classify **sets of natural numbers** (or statements) based on the **quantifier complexity** of their logical definitions.
 
-- **Levels of the Arithmetical Hierarchy**: Levels are defined using \(\Sigma_n\) and \(\Pi_n\) notation, where:
-    - \(\Sigma_0 = \Pi_0 = \Delta_0\): Decidable (computable) sets.
-    - \(\Sigma_1\): Sets definable with an **existential quantifier** followed by a computable predicate.
-    - \(\Pi_1\): Sets definable with a **universal quantifier** followed by a computable predicate.
+- **Levels of the Arithmetical Hierarchy**: Levels are defined using \$\Sigma_n\$ and \$\Pi_n\$ notation, where:
+    - \$\Sigma_0 = \Pi_0 = \Delta_0\$: Decidable (computable) sets.
+    - \$\Sigma_1\$: Sets definable with an **existential quantifier** followed by a computable predicate.
+    - \$\Pi_1\$: Sets definable with a **universal quantifier** followed by a computable predicate.
     - Higher levels alternate quantifiers.
   
-- **Applications**: The hierarchy classifies logical statements based on their complexity, which is useful for understanding **provability** and **decidability** in formal systems. For example, \(\Sigma_1\)-statements include existential questions about natural numbers, while \(\Pi_1\)-statements include universal questions.
+- **Applications**: The hierarchy classifies logical statements based on their complexity, which is useful for understanding **provability** and **decidability** in formal systems. For example, \$\Sigma_1\$-statements include existential questions about natural numbers, while \$\Pi_1\$-statements include universal questions.
 
 - **Importance**: The Arithmetical Hierarchy provides a framework for analyzing the **complexity of mathematical statements**, particularly in fields like **model theory** and **proof theory**.
 
