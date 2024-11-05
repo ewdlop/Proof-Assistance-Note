@@ -115,3 +115,9 @@ The **Boolean Hierarchy** builds on **NP** and is a hierarchy of complexity clas
 ---
 
 These hierarchies provide **structured ways to analyze complexity** and **logical properties** across different domains of theoretical computer science and mathematical logic. Each hierarchy serves a distinct purpose, from understanding polynomial-time computations to exploring logical quantifier depth, making them fundamental tools for formalizing and studying computational and logical problems.
+
+# Dependent Type?
+
+https://en.wikipedia.org/wiki/Dependent_type
+
+https://web.archive.org/web/20201109032232/http://sage.soe.ucsc.edu/
