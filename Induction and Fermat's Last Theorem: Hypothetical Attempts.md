@@ -6,7 +6,55 @@ a^n + b^n = c^n
 
 for any integer \( n > 2 \). 
 
-While Fermat's Last Theorem was famously proven by Andrew Wiles in 1994 using sophisticated tools from modern algebraic geometry and modular forms, **induction alone cannot prove Fermat's Last Theorem**. This is because induction, as a proof technique, typically requires a straightforward, structured dependency between cases, which is not present in the complexity of Fermat's Last Theorem.
+## n = 1
+
+
+a + b = c
+
+## Proof
+
+To prove that for every integer \( c \), there exist integers \( a \) and \( b \) such that \( a + b = c \), we proceed as follows:
+
+---
+
+### **Statement to Prove**
+For every integer \( c \), there exist integers \( a \) and \( b \) such that:
+\[
+a + b = c
+\]
+
+---
+
+### **Proof**
+
+#### **1. Choice of \( a \) and \( b \):**
+We can explicitly construct \( a \) and \( b \). For any given \( c \), let:
+\[
+a = 0 \quad \text{and} \quad b = c
+\]
+
+#### **2. Verify the Equation:**
+Substitute \( a = 0 \) and \( b = c \) into \( a + b = c \):
+\[
+0 + c = c
+\]
+
+Thus, the equation holds for these values of \( a \) and \( b \).
+
+---
+
+### **Generalization:**
+- Since \( a = 0 \) and \( b = c \) are integers (and integers are closed under addition), this proof works for all integers \( c \).
+- Alternatively, you could choose other pairs, such as \( a = c - b \) for any integer \( b \), and the sum would still satisfy \( a + b = c \).
+
+---
+
+### **Conclusion:**
+For every integer \( c \), we can always find integers \( a \) and \( b \) (e.g., \( a = 0 \) and \( b = c \)) such that \( a + b = c \). Hence, the statement is proven. ✅
+
+## While Fermat's Last Theorem was famously proven by Andrew Wiles in 1994 using sophisticated tools from modern algebraic geometry and modular forms, **induction alone cannot prove Fermat's Last Theorem**. 
+
+This is because induction, as a proof technique, typically requires a straightforward, structured dependency between cases, which is not present in the complexity of Fermat's Last Theorem.
 
 ---
 
