@@ -276,7 +276,14 @@ Matters or not. Does it matters?  It is a mater? Are they matters? Do they matte
 
 None of it matters because nobody cares.
 
-## p => ~p (Circular Reasoning)
+## p => ~p (self-contradictory statement, paradox) 
+
+~## p => ~p (Circular Reasoning)~
+
+## p => ~p 
+   ~p => p (Circular Reasoning?)
+
+## Circular Reasoning (Circular Reasoning)
 
 ## p & ~p (logical contradiction)
 
