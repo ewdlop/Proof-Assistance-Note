@@ -340,4 +340,94 @@ All these forms are equivalent.
 
 ---
 
+
+## What was Dyson smoking? Cannibalism. *(Save the sun)
+ 
+The **Dyson equation** is a fundamental concept in quantum field theory and many-body physics, describing how the propagator (or Green's function) of a system is modified by interactions. It is used to understand how particles propagate in the presence of interactions and is central to many-body perturbation theory.
+
+---
+
+### **Dyson Equation in Quantum Field Theory**
+
+1. **General Form**:
+   \[
+   G = G_0 + G_0 \Sigma G
+   \]
+   where:
+   - \( G \): Full propagator (interacting system).
+   - \( G_0 \): Free propagator (non-interacting system).
+   - \( \Sigma \): Self-energy, encapsulating all interaction effects.
+
+2. **Physical Interpretation**:
+   - The Dyson equation relates the full propagator \( G \) of a particle to the free propagator \( G_0 \), modified by the self-energy \( \Sigma \).
+   - \( G_0 \Sigma G \) represents the effect of interactions between the particle and the system.
+
+---
+
+### **Components of the Dyson Equation**
+
+1. **Free Propagator (\( G_0 \))**:
+   - Describes how a particle propagates in a non-interacting system.
+   - In momentum space, for example, \( G_0(k, \omega) = \frac{1}{\omega - \epsilon_k + i\eta} \), where \( \epsilon_k \) is the energy of a free particle with momentum \( k \).
+
+2. **Self-Energy (\( \Sigma \))**:
+   - Represents all interaction effects, including scattering and virtual processes.
+   - It modifies the energy and lifetime of particles.
+
+3. **Full Propagator (\( G \))**:
+   - Describes the propagation of a particle in the interacting system, accounting for all interaction effects.
+
+---
+
+### **Matrix Form of the Dyson Equation**
+For more complex systems, such as those involving multiple particles or spins, the Dyson equation can be written in matrix form:
+\[
+\mathbf{G} = \mathbf{G}_0 + \mathbf{G}_0 \mathbf{\Sigma} \mathbf{G}
+\]
+
+---
+
+### **Momentum-Frequency Representation**
+In momentum-frequency space (often used in condensed matter physics):
+\[
+G(k, \omega) = G_0(k, \omega) + G_0(k, \omega) \Sigma(k, \omega) G(k, \omega)
+\]
+
+Solving for \( G(k, \omega) \):
+\[
+G(k, \omega) = \frac{1}{G_0(k, \omega)^{-1} - \Sigma(k, \omega)}
+\]
+
+---
+
+### **Applications of the Dyson Equation**
+
+1. **Quantum Field Theory**:
+   - Used in Feynman diagrams to describe how particles propagate and interact.
+
+2. **Many-Body Physics**:
+   - Central to studying electronic properties in materials, including phenomena like superconductivity, magnetism, and strongly correlated systems.
+
+3. **Perturbation Theory**:
+   - Forms the backbone of perturbative expansions, where the self-energy \( \Sigma \) is computed iteratively or diagrammatically.
+
+4. **Condensed Matter Physics**:
+   - Describes electron dynamics in solids, including quasiparticle behavior.
+
+---
+
+### **Key Insights from Dyson Equation**
+
+1. **Renormalization**:
+   - The self-energy \( \Sigma \) incorporates renormalization effects, such as shifting particle masses or changing energy levels.
+
+2. **Quasiparticles**:
+   - The modified propagator \( G \) reveals the existence of quasiparticles with properties different from free particles.
+
+3. **Interaction Effects**:
+   - The self-energy captures all complex interactions, including multi-particle effects and correlations.
+
+---
+
+The Dyson equation provides a framework for systematically including interaction effects in particle propagation, making it a cornerstone of modern theoretical physics.
 Would you like a deeper dive into any specific representation or proof?
