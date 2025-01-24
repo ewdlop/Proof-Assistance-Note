@@ -1,0 +1,5 @@
+Lemma (God knows what I am talking about.)
+
+Lemma (我數學爛到什麼程度複雜性太低。)
+
+Lemma (我只會讀數學。)
