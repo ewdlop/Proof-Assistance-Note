@@ -12,4 +12,9 @@ Lemma (我只要讀數學。)
 
 Lemma (我說的就得是)
 
+Proof:
+
+∀ statements ∈ me, ∃ mentnal function f: statement -> {true, false} such that f(x) = true.
+
 QED.
+
